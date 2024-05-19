@@ -6,22 +6,22 @@ nav {
   position: sticky;
 }
 
-ul li {
+.navbar-btns li {
   display: inline;
   margin-right: 10px;
 }
 
-li {
+.navbar-btns li {
   list-style-type: none;
 }
 
-li:hover {
+.navbar-btns li:hover {
   cursor: pointer;
   border-bottom: 3px solid white;
   transition: all 0.3s ease-in-out;
 }
 
-li img {
+.navbar-btns li img {
   color: white;
   width: 1.5rem;
   height: 1.5rem;
