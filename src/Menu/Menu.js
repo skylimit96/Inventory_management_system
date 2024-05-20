@@ -4,16 +4,14 @@ function Menu() {
   return (
     <>
       <div className="menu-container">
-        <ul className="dashboard-btn">
-          <li>Dashboard</li>
-          <li>Analytics</li>
-          <li>Configuration</li>
-          <li>Help</li>
-        </ul>
-        <div className="logout-btn">
-          <h3>Logout</h3>
+          <ul>
+            <li>Dashboard</li>
+            <li>Analytics</li>
+            <li>Configuration</li>
+            <li>Help</li>
+            <li>Logout</li>
+          </ul>
         </div>
-      </div>
     </>
   );
 }
