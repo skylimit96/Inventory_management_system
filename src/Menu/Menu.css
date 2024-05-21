@@ -1,53 +1,5 @@
-.menu-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  text-align: left;
-  color: white;
-  background-color: #afafaf;
-  width: 9rem;
-  position: fixed; /* Make the menu fixed */
-  top: 1; /* Start at the top of the window */
-  left: 0; /* Start at the left of the window */
-  height: 100vh; /* Take the full height of the viewport */
-}
-
-.menu-container ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.menu-container li {
-  width: 100%;
-  padding: 15px 20px;
-  font-size: 16px;
-  border-bottom: 1px solid rgb(210, 210, 210);
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0;
-}
-
-.menu-container li:hover {
-  background-color: black;
-  color: whitesmoke;
-  border: none;
+.list-group a:hover {
+  background-color: greenyellow;
+  color: black;
   cursor: pointer;
-  font-weight: bold;
-}
-
-.menu-container li:last-child {
-  border-bottom: none;
-}
-
-.menu-container a {
-  text-decoration: none;
-  color: white;
-}
-
-.menu-container a:hover {
-  color: whitesmoke;
 }
