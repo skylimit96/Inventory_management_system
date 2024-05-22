@@ -6,7 +6,7 @@ function Menu() {
   return (
     <div className="bg-white sidebar p-2">
       <div className="m-2">
-        <i className="bi bi-bootstrap-fill me-3 fs-4"></i>
+        <i className="bi me-3 fs-4"></i>
         <span className="brand-name fs-4">I.M.System</span>
       </div>
       <hr className="text-dark" />
