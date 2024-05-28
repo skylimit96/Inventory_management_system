@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./Dashboard.css";
 import "../utils/Table";
 import StickyHeadTable from "../utils/Table";
+import Welcome from '../utils/Welcome';
 
 function Dashboard({ Toggle }) {
   return (
@@ -12,16 +13,7 @@ function Dashboard({ Toggle }) {
       <Header Toggle={Toggle} />
       <div className="container-fluid">
         <div>
-          <figure>
-            <blockquote class="blockquote">
-              <span className="h3 text-white">
-                Hello, <b>Amine</b>.
-              </span>
-            </blockquote>
-            <figcaption class="blockquote-footer text-white">
-              Welcome to the Inventory Managment System.
-            </figcaption>
-          </figure>
+          <Welcome />
         </div>
         <div className="row g-3 my-2">
           <div className="col-md-3 p-1">
@@ -61,11 +53,11 @@ function Dashboard({ Toggle }) {
             </div>
           </div>
         </div>
-      </div>
       <hr></hr>
         <StickyHeadTable />
       <hr></hr>
       <Footer />
+      </div>
     </div>
   );
 }
