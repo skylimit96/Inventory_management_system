@@ -13,7 +13,7 @@ function App() {
   }
 
   return (
-    <div className="container-fluid bg-secondary min-vh-100">
+    <div className="container-fluid bg-primary min-vh-100">
       <div className='row'>
         {toggle && <div className='col-4 col-md-2 bg-white vh-100 position-fixed'>
           <Menu />
