@@ -5,6 +5,7 @@ import Dashboard from '../Dashboard/Dashboard'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import { useState } from 'react'
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   const [toggle, setToggle] = useState(true)
@@ -19,9 +20,11 @@ function App() {
           <Menu />
         </div>}
         {toggle && <div className='col-4 col-md-2'></div>}
-        <div className='col'>
-          <Dashboard Toggle={Toggle}/>
-        </div>
+        <main>
+          <Routes>
+            <Route path="/" element={<Dashboard Toggle={Toggle} className='col' />} />
+          </Routes>
+        </main>
       </div>
     </div>
   );
