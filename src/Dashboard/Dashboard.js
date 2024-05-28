@@ -16,9 +16,9 @@ function Dashboard({ Toggle }) {
         <div>
           <Welcome />
         </div>
-        <Widgets />
+          <Widgets />
         <hr></hr>
-        <StickyHeadTable />
+          <StickyHeadTable />
         <hr></hr>
         <Footer />
       </div>

@@ -22,7 +22,7 @@ function App() {
         {toggle && <div className='col-4 col-md-2'></div>}
         <main>
           <Routes>
-            <Route path="/" element={<Dashboard Toggle={Toggle} className='col' />} />
+            <Route path="/" element={<Dashboard Toggle={Toggle} />} />
           </Routes>
         </main>
       </div>
